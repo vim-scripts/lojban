@@ -2,8 +2,8 @@
 " Language:     Lojban
 " Maintainer:   Cyril Slobin <slobin@ice.ru>
 " URL:          http://45.free.net/~slobin/vim/lojban.zip
-" Last Change:  2007 Jan 10
-" $Id: lojban.vim,v 1.8 2007-01-10 01:03:15+03 slobin Exp $
+" Last Change:  2007 Feb 27
+" $Id: lojban.vim,v 1.9 2007-02-27 00:42:10+03 slobin Exp $
 
 " For more information about Lojban language see http://www.lojban.org
 
@@ -86,7 +86,7 @@ if exists("loaded_matchit")
   let b:match_ignorecase = 1
   let b:match_skip = 's:lojbanComment\|lojbanQuoteSymbol\|lojbanTextForeign'
   let b:match_words =
-        \ '<<i\|ni''o\|no''i>>:<<zu''o>>:<<cu>>:<<vau>>,' .
+        \ '<<i\|ni''o\|no''i>>:<<zo''u>>:<<cu>>:<<vau>>,' .
         \ '<<be''e\|co''o\|coi\|doi\|fe''o\|fi''e\|je''e\|ju''i\|ke''o\|ki''e\|mi''e\|mu''o\|nu''e\|pe''u\|re''i\|ta''a\|vi''o>>:<<do''u>>,' .
         \ '<<be>>:<<bei>>:<<be''o>>,' .
         \ '<<du''u\|jei\|ka\|li''i\|mu''e\|ni\|nu\|pu''u\|si''o\|su''u\|za''i\|zu''o>>:<<kei>>,' .
